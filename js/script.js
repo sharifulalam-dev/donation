@@ -70,7 +70,7 @@ noakhaliSubmit.addEventListener("click", function (e) {
     newElement.innerHTML = html;
     historyPortion.appendChild(newElement);
 
-    my_modal_1.showModal();
+    showModal();
   } else {
     alert("Invalid Donation amount");
   }
@@ -95,7 +95,7 @@ feniSubmit.addEventListener("click", function (e) {
     </div>`;
     newElement.innerHTML = html;
     historyPortion.appendChild(newElement);
-    my_modal_2.showModal();
+    showModal();
   } else {
     alert("Invalid Donation amount");
   }
@@ -120,7 +120,7 @@ quotaSubmit.addEventListener("click", function (e) {
     </div>`;
     newElement.innerHTML = html;
     historyPortion.appendChild(newElement);
-    my_modal_3.showModal();
+    showModal();
   } else {
     alert("Invalid Donation amount");
   }

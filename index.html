@@ -39,12 +39,10 @@
       </div>
       <!-- BUTTONS -->
       <div class="button-group text-center pt-10 pb-5 bg-white">
-        <button
-          class="colorcode donation btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
-        >
+        <button class="colorcode donation btn sm:btn-sm md:btn-md lg:btn-lg">
           Donation
         </button>
-        <button class="history btn btn-xs sm:btn-sm md:btn-md lg:btn-lg ml-3">
+        <button class="history btn sm:btn-sm md:btn-md lg:btn-lg ml-3">
           History
         </button>
       </div>
@@ -54,13 +52,13 @@
     <div class="main-portion main max-w-6xl mx-auto mt-24">
       <!-- NOAKHALI -->
       <div
-        class="noakhali card-holder flex justify-between p-8 border rounded-lg mb-8 lg:max-h-[450px]"
+        class="noakhali card-holder space-y-4 lg:space-y-0 flex-col md:flex-row flex justify-between p-8 border rounded-lg mb-8 lg:max-h-[450px]"
       >
-        <div class="w-1/2">
+        <div class="md:w-1/2 w-full">
           <img class="w-full h-full" src="./assets/noakhali.png" alt="" />
         </div>
-        <div class="w-1/2 ml-8">
-          <button class="flex btn mb-4">
+        <div class="w-full md:w-1/2 md:ml-8">
+          <button class="flex btn mb-4 items-center mx-auto md:mx-0">
             <img src="./assets/coin.png" alt="" />
             <p class="font-bold text-md ml-1">
               <span class="noakhali-donation">0</span> BDT
@@ -80,10 +78,10 @@
           <input
             type="text"
             placeholder="Write Your Donation Amount"
-            class="noakhali-input input input-bordered w-full max-w-xs mb-4"
+            class="noakhali-input input input-bordered w-full md:max-w-xs mb-4"
           />
           <button
-            class="noakhali-submit bg-[#B4F461] hover:bg-[#B4F461] btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full"
+            class="noakhali-submit bg-[#B4F461] hover:bg-[#B4F461] btn sm:btn-sm md:btn-md lg:btn-lg w-full"
           >
             Donate Now
           </button>
@@ -108,13 +106,13 @@
       </div>
       <!-- FENI -->
       <div
-        class="feni card-holder flex justify-between p-8 border rounded-lg mb-8 lg:max-h-[450px]"
+        class="feni card-holder flex space-y-4 lg:space-y-0 flex-col md:flex-row justify-between p-8 border rounded-lg mb-8 lg:max-h-[450px]"
       >
-        <div class="w-1/2">
+        <div class="md:w-1/2 w-full">
           <img class="w-full h-full" src="./assets/feni.png" alt="" />
         </div>
-        <div class="w-1/2 ml-8">
-          <button class="flex btn mb-4">
+        <div class="w-full md:w-1/2 md:ml-8">
+          <button class="flex btn mb-4 items-center mx-auto md:mx-0">
             <img src="./assets/coin.png" alt="" />
             <p class="font-bold text-md ml-1">
               <span class="feni-donation">600</span> BDT
@@ -134,10 +132,10 @@
           <input
             type="text"
             placeholder="Write Your Donation Amount"
-            class="feni-input input input-bordered w-full max-w-xs mb-4"
+            class="feni-input input input-bordered w-full md:max-w-xs mb-4"
           />
           <button
-            class="feni-submit bg-[#B4F461] hover:bg-[#B4F461] btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full"
+            class="feni-submit bg-[#B4F461] hover:bg-[#B4F461] btn sm:btn-sm md:btn-md lg:btn-lg w-full"
           >
             Donate Now
           </button>
@@ -162,13 +160,13 @@
       </div>
       <!-- QUOTA -->
       <div
-        class="quota card-holder flex justify-between p-8 border rounded-lg mb-8 lg:max-h-[450px]"
+        class="quota card-holder space-y-4 lg:space-y-0 flex-col md:flex-row flex justify-between p-8 border rounded-lg mb-8 lg:max-h-[450px]"
       >
-        <div class="w-1/2">
+        <div class="md:w-1/2 w-full">
           <img class="w-full h-full" src="./assets/quota-protest.png" alt="" />
         </div>
-        <div class="w-1/2 ml-8">
-          <button class="flex btn mb-4">
+        <div class="w-full md:w-1/2 md:ml-8">
+          <button class="flex btn mb-4 items-center mx-auto md:mx-0">
             <img src="./assets/coin.png" alt="" />
             <p class="font-bold text-md ml-1">
               <span class="quota-donation">2400</span> BDT
@@ -188,10 +186,11 @@
           <input
             type="text"
             placeholder="Write Your Donation Amount"
-            class="quota-input input input-bordered w-full max-w-xs mb-4"
+            class="quota-input input input-bordered w-full md:max-w-xs mb-4"
           />
+
           <button
-            class="quota-submit bg-[#B4F461] hover:bg-[#B4F461] btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full"
+            class="quota-submit bg-[#B4F461] hover:bg-[#B4F461] btn sm:btn-sm md:btn-md lg:btn-lg w-full"
           >
             Donate Now
           </button>
@@ -217,7 +216,7 @@
     </div>
     <!-- HISTORY PART -->
     <div class="history-portion hidden main max-w-6xl mx-auto mt-24"></div>
-
+    <div class="min-h-20 bg-[#F9F7F3]"></div>
     <script src="./js/script.js"></script>
   </body>
 </html>
