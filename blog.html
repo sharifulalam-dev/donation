@@ -13,42 +13,45 @@
     <title>Donation</title>
   </head>
   <body>
-
-    <div class="bg-header  bg-[#F9F7F3]">
+    <div class="bg-header bg-[#F9F7F3]">
       <div class="header p-3 pb-10 max-w-6xl mx-auto">
-         <div
-           class="navbar"
-         >
-           <div class="navbar-start">
-             <a class="button-blog bg-[#B4F461] hover:bg-[#B4F461] btn btn-ghost text-xl"
-               >Home</a
-             >
-           </div>
-           <div class="navbar-center flex items-center max-h-12">
-             <img class="" src="./assets/logo.png" alt="" />
-             <p class="font-bold text-2xl ml-3 hidden md:block">Donate Bangladesh</p>
-           </div>
-           <div class="navbar-end">
-             <img class="" src="./assets/coin.png" alt="" />
-             <p class="font-bold text-xl ml-3">5500 BDT</p>
-           </div>
-         </div>
-       </div>
-     </div>
+        <div class="navbar">
+          <div class="navbar-start">
+            <a
+              class="button-blog bg-[#B4F461] hover:bg-[#B4F461] btn btn-ghost text-xl"
+              >Home</a
+            >
+          </div>
+          <div class="navbar-center flex items-center max-h-12">
+            <img class="" src="./assets/logo.png" alt="" />
+            <p class="font-bold text-2xl ml-3 hidden md:block">
+              Donate Bangladesh
+            </p>
+          </div>
+          <div class="navbar-end">
+            <img class="" src="./assets/coin.png" alt="" />
+            <p class="font-bold text-xl ml-3">5500 BDT</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <main class="max-w-6xl mx-auto">
-     <div class="flex my-10 items-center">
-      <h1 class="text-3xl font-bold">Important Faq</h1>
-      <img class="h-[100px]" src="./assets/faq.png" alt="">
-     </div>
+    <main class="max-w-6xl mx-auto">
+      <div class="flex my-10 items-center">
+        <h1 class="text-3xl font-bold">Important Faq</h1>
+        <img class="h-[100px]" src="./assets/faq.png" alt="" />
+      </div>
       <div class="join join-vertical w-full">
         <div class="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" checked="checked" />
           <div class="collapse-title text-xl font-medium">
-          What is the Document Object Model (DOM)?
+            What is the Document Object Model (DOM)?
           </div>
           <div class="collapse-content">
-            <p>DOM means Document Object Model. it is the HTML document and tree structured. Every Element is node in this tree structre.</p>
+            <p>
+              DOM means Document Object Model. it is the HTML document and tree
+              structured. Every Element is node in this tree structre.
+            </p>
           </div>
         </div>
         <div class="collapse collapse-arrow join-item border-base-300 border">
@@ -57,40 +60,48 @@
             How do you select an element from the DOM?
           </div>
           <div class="collapse-content">
-            <p>There are couple of ways to select and element from the DOM.
-              1.getElementById
-              2.getElementsByClassName
-              3.querySelector
-              4.querySelectorAll
-              5.getElementsByTagName
+            <p>
+              There are couple of ways to select and element from the DOM.
+              1.getElementById 2.getElementsByClassName 3.querySelector
+              4.querySelectorAll 5.getElementsByTagName
             </p>
           </div>
         </div>
         <div class="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" />
           <div class="collapse-title text-xl font-medium">
-           What is event delegation in the context of the DOM, and why is it useful?
+            What is event delegation in the context of the DOM, and why is it
+            useful?
           </div>
           <div class="collapse-content">
-            <p>When an event occurs in child element it reaches to the top of the document.if we add event listener every single element under a parent than it will hamper the efficiecy. then we  attached event listener in parent.so, that any event occurs in child it can be tracted from parents.</p>
+            <p>
+              When an event occurs in child element it reaches to the top of the
+              document.if we add event listener every single element under a
+              parent than it will hamper the efficiecy. then we attached event
+              listener in parent.so, that any event occurs in child it can be
+              tracted from parents.
+            </p>
           </div>
         </div>
         <div class="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" />
           <div class="collapse-title text-xl font-medium">
-          How do you manipulate an element's attributes and styles using the DOM?
+            How do you manipulate an element's attributes and styles using the
+            DOM?
           </div>
           <div class="collapse-content">
-            <p>First of all we have to select and element than use getAttribute method to get the attributes. it will return us the value of the attributes. We can the change the value. Example: src attritube. 
-
-              const image = document.getElementById("image");
-              const src = image.getAttribute("src");
-              image.setAttribute("src", "./assets/coin.png");
+            <p>
+              First of all we have to select and element than use getAttribute
+              method to get the attributes. it will return us the value of the
+              attributes. We can the change the value. Example: src attritube.
+              const image = document.getElementById("image"); const src =
+              image.getAttribute("src"); image.setAttribute("src",
+              "./assets/coin.png");
             </p>
           </div>
         </div>
       </div>
     </main>
-    <script src="script2.js"></script>
+    <script src="./js/script2.js"></script>
   </body>
 </html>
