@@ -6,7 +6,7 @@ const textToNumber = function (item) {
   return parseFloat(item.innerText);
 };
 
-const blogBtn = getItem(".losit");
+const blogBtn = getItem(".blog-page");
 const donation = getItem(".donation");
 const history = getItem(".history");
 const mainPortion = getItem(".main-portion");
@@ -28,7 +28,7 @@ const quotaInput = getItem(".quota-input");
 const totalBudget = getItem(".total-budget");
 
 blogBtn.addEventListener("click", function () {
-  window.location = "./blog.html";
+  window.location.href = "./blog.html";
 });
 
 donation.addEventListener("click", function (e) {
